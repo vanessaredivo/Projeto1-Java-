@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner leitura = new Scanner(System.in);
+
+        double idade_anos;
+        double idade_dias;
+
+        System.out.println("Informe quantos anos você tem: ");
+        idade_anos = leitura.nextDouble();
+
+        idade_dias = idade_anos * 365;
+
+        System.out.println("Então  sua idade em dias é: ");
+        System.out.println(idade_dias);
+    }
+}
